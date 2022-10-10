@@ -68,5 +68,5 @@ print("Are you a UK resident?")
 UK_resident = input()
 ```
 
-# How to github using SSH key:
-- 
+# How to setup github using SSH key:
+![image](https://user-images.githubusercontent.com/115154775/194919569-191530e1-6f4e-4ff7-8999-259b2c113dfa.png)
