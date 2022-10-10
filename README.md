@@ -14,7 +14,7 @@
 - Data Science
 
 
-Python Variables
+# Python Variables
 - Variables help to store data values
 - To store user data- hard code the data- any other type
 
@@ -27,7 +27,7 @@ Python Variables
 - travel = 15.4 - float
 - gross_salary = salary + travel
 
-
+# Below is an example of some code and variables in practice:
 
 
 ```python
@@ -67,3 +67,6 @@ course_name = input()
 print("Are you a UK resident?")
 UK_resident = input()
 ```
+
+# How to github using SSH key:
+- 
