@@ -16,17 +16,20 @@
 
 Python Variables
 - Variables help to store data values
-- -
+- To store user data- hard code the data- any other type
 
-# To store any data-
-# To store user data- hard code the data- any other type
-# first_name = "" - String
-# last_name = ""
-# DOB = 99- Int
-# UK_resident= yes or no - Boolean
-# salary = 40000 - Int
-# travel = 15.4 - float
-# gross_salary = salary + travel
+# Here are some examples:
+- first_name = "" - String
+- last_name = ""
+- DOB = 99- Int
+- UK_resident= yes or no - Boolean
+- salary = 40000 - Int
+- travel = 15.4 - float
+- gross_salary = salary + travel
+
+
+
+
 ```python
 
 
