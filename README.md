@@ -69,9 +69,11 @@ UK_resident = input()
 ```
 # Generating a new SSH key
 Step 1. Open Bash terminal
+
 Step 2. Open .ssh directory bu using this command
 - cd ~/.ssh
 - if it does not exist use mkdir ~/.ssh
+
 Step 3. ssh-keygen -t rsa -b 4096 -C "your@email.com"
 - Substitue the email with your GitHub email
 
