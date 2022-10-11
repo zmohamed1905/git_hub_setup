@@ -68,5 +68,13 @@ print("Are you a UK resident?")
 UK_resident = input()
 ```
 
-# How to github using SSH key:
-- 
+
+
+# Git & Github
+add changes to our Github repo- the changes that we made on local host
+
+- `git add filename` or `git add .`. means push everything from current location.
+- `git commit -m "new markdown guide added"`
+- now lets send this new data to Github
+- `git push -u origin main`
+- `git status`
