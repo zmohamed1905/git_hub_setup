@@ -255,8 +255,16 @@ DOB = input()
 print("Are you a UK resident? Yes or No")
 uk_resdient= input()
 
-print(f"Hello {first_name} {last_name} {DOB} {uk_resdient}")
+print("What is your house number?")
+house_number = input()
+
+print("Please state one hobby of yours")
+user_hobbies = input()
+
+
+print(f"Hello {first_name} {last_name} {DOB} {uk_resdient} {house_number} {user_hobbies}")
 
 ```
 
-Output should appear as so:
+Final Output should appear as so:
+Zakariya Mohamed 19/05/00 Yes
