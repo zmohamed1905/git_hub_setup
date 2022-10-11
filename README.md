@@ -67,7 +67,10 @@ course_name = input()
 print("Are you a UK resident?")
 UK_resident = input()
 ```
+# Generating a new SSH key
+Step 1. Open Bash terminal
 
+<<<<<<< HEAD
 
 
 # Git & Github
@@ -78,3 +81,33 @@ add changes to our Github repo- the changes that we made on local host
 - now lets send this new data to Github
 - `git push -u origin main`
 - `git status`
+=======
+Step 2. Open .ssh directory bu using this command
+- cd ~/.ssh
+- if it does not exist use mkdir ~/.ssh
+
+Step 3. ssh-keygen -t rsa -b 4096 -C "your@email.com"
+- Substitue the email with your GitHub email
+
+
+# How to setup github using SSH key:
+- Open GitBash
+- enter $ ssh-keygen -t ed25519 -C "your_email@example.com"
+-  This creates a new SSH key, using the provided email as a label.
+> Generating public/private ALGORITHM key pair.
+
+# Adding your SSH key to the ssh-agent
+step 1: # start the ssh-agent in the background
+$ eval "$(ssh-agent -s)" > Agent pid 59566
+
+Step 2: $ ssh-add ~/.ssh/id_ed25519
+
+Step 3: Replace id with your id_rsa
+
+Checking Status:
+- $ ssh -T git@github.com
+- if you see : Hi USERNAME! You've successfully authenticated, but GitHub does not provide shell access.
+- You have been successful
+
+![image](https://user-images.githubusercontent.com/115154775/194919569-191530e1-6f4e-4ff7-8999-259b2c113dfa.png)
+>>>>>>> b1196a306ff005c4fa386fff48816bc9bdc31f70
