@@ -70,18 +70,6 @@ UK_resident = input()
 # Generating a new SSH key
 Step 1. Open Bash terminal
 
-<<<<<<< HEAD
-
-
-# Git & Github
-add changes to our Github repo- the changes that we made on local host
-
-- `git add filename` or `git add .`. means push everything from current location.
-- `git commit -m "new markdown guide added"`
-- now lets send this new data to Github
-- `git push -u origin main`
-- `git status`
-=======
 Step 2. Open .ssh directory bu using this command
 - cd ~/.ssh
 - if it does not exist use mkdir ~/.ssh
@@ -109,5 +97,16 @@ Checking Status:
 - if you see : Hi USERNAME! You've successfully authenticated, but GitHub does not provide shell access.
 - You have been successful
 
+
+
 ![image](https://user-images.githubusercontent.com/115154775/194919569-191530e1-6f4e-4ff7-8999-259b2c113dfa.png)
 >>>>>>> b1196a306ff005c4fa386fff48816bc9bdc31f70
+
+# Git & Github
+add changes to our Github repo- the changes that we made on local host
+
+- `git add filename` or `git add .`. means push everything from current location.
+- `git commit -m "new markdown guide added"`
+- now lets send this new data to Github
+- `git push -u origin main`
+- `git status`
