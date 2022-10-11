@@ -100,7 +100,7 @@ Checking Status:
 
 
 ![image](https://user-images.githubusercontent.com/115154775/194919569-191530e1-6f4e-4ff7-8999-259b2c113dfa.png)
->>>>>>> b1196a306ff005c4fa386fff48816bc9bdc31f70
+
 
 # Git & Github
 add changes to our Github repo- the changes that we made on local host
@@ -110,3 +110,118 @@ add changes to our Github repo- the changes that we made on local host
 - now lets send this new data to Github
 - `git push -u origin main`
 - `git status`
+
+# Git Cheat Sheet
+```bash
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+```
+
+# Intro to Data types & Operators
+- `+ - * /`
+
+# Comparison Operators
+- `>` greater than
+- `>` less than
+- `==` True or False
+- `>=` Greater than or equal to
+- `<=` Less than or equal to
+
+
+```python
+a = 24
+b = 16
+
+print(a + b) # outcome added value of a & b
+print(a - b) # outcome -a from b
+# comparison
+print(a > b) # True
+print(a < b) # False
+print(a == b)
+```
+
+
+
+# Using Built in Booleans:
+
+```python
+greeting = "Hello World!"
+print(greeting)
+print(greeting.isalpha()) # checks if it is in the alphabet
+print(greeting.islower()) # checks if it is lower case
+print(greeting.startswith("H")) # checks if it starts with a capital H
+print(greeting.endswith("!")) # checks if it ends with specific letter/symbol
+print(greeting.isdigit()) # checks if it is a digit
+
+```
+
+# String Slicing:
+```python
+greeting = "Hello World"
+print(greeting)
+# we have builtin method that checks the len of string
+print(len(greeting))
+print(greeting[-1])
+print(greeting[0:5]) #prints 0-5
+print(greeting[-6:]) # prints the remaining char
+```
+
+
+
+
+# String Methods are availabble
+
+```python
+
+# use var= string "assddfffdgdfdf"
+white_space = "lots of spaces at the end                "
+print(len(white_space))
+# strip() removes the white spaces
+print(len(white_space.strip)) # this calculates the len and removes all white spaces at the end
+
+Example_text = "here is some text with lot's of text"
+print(Example_text.count("text")) # tells you how many times "text" is mentioned
+print(Example_text.lower()) # allows you to convert everything into lower case
+print(Example_text.upper()) # allows you to convert everything into upper case
+print(Example_text.capitalize()) # allows you to convert the first char into a capital letter
+print(Example_text.replace("with", ",")) # allows you to replace something (case_sensitive)
+
+```
+ 
