@@ -44,15 +44,28 @@
 #
 #String Methods are availabble
 
-# use var= string "assddfffdgdfdf"
-white_space = "lots of spaces at the end                "
-print(len(white_space))
-# strip() removes the white spaces
-print(len(white_space.strip)) # this calculates the len and removes all white spaces at the end
+# # use var= string "assddfffdgdfdf"
+# white_space = "lots of spaces at the end                "
+# print(len(white_space))
+# # strip() removes the white spaces
+# print(len(white_space.strip)) # this calculates the len and removes all white spaces at the end
+#
+# Example_text = "here is some text with lot's of text"
+# print(Example_text.count("text")) # tells you how many times "text" is mentioned
+# print(Example_text.lower()) # allows you to convert everything into lower case
+# print(Example_text.upper()) # allows you to convert everything into upper case
+# print(Example_text.capitalize()) # allows you to convert the first char into a capital letter
+# print(Example_text.replace("with", ",")) # allows you to replace something (case_sensitive)
 
-Example_text = "here is some text with lot's of text"
-print(Example_text.count("text")) # tells you how many times "text" is mentioned
-print(Example_text.lower()) # allows you to convert everything into lower case
-print(Example_text.upper()) # allows you to convert everything into upper case
-print(Example_text.capitalize()) # allows you to convert the first char into a capital letter
-print(Example_text.replace("with", ",")) # allows you to replace something (case_sensitive)
+
+# user data input
+first_name = "Shahrukh"
+last_name = "Khan"
+salary = 40
+print(first_name)
+print(last_name)
+print(first_name + last_name)
+print(first_name + " " + last_name + " " + str(salary))
+# F-string
+print(f" Hello {first_name} {last_name}") # Python 3.5/6 or above
+

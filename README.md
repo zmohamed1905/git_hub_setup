@@ -225,3 +225,19 @@ print(Example_text.replace("with", ",")) # allows you to replace something (case
 
 ```
  
+# Concatenation & Casting
+- adding strings together
+- casting/converting data types
+
+```python
+# user data input
+first_name = "Shahrukh"
+last_name = "Khan"
+salary = 40
+print(first_name)
+print(last_name)
+print(first_name + last_name)
+print(first_name + " " + last_name + " " + str(salary))
+# F-string
+print(f" Hello {first_name} {last_name}") # Python 3.5/6 or above
+```
