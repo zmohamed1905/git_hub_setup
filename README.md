@@ -29,10 +29,7 @@
 
 # Below is an example of some code and variables in practice:
 
-
 ```python
-
-
 
 first_name = "Zakariya"
 last_name = "Mohamed"
@@ -206,7 +203,7 @@ print(greeting[-6:]) # prints the remaining char
 
 
 
-# String Methods are availabble
+# String Methods are available:
 
 ```python
 
@@ -242,6 +239,7 @@ print(first_name + " " + last_name + " " + str(salary))
 print(f" Hello {first_name} {last_name}") # Python 3.5/6 or above
 ```
 
+# User Input Ask:
 ```python
 print("Good Morning, Please enter your First Name")
 first_name = input()
