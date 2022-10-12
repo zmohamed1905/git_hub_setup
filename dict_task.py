@@ -13,3 +13,5 @@ print(story_1["middle"])
 print(story_1["end"])
 story_1["hero"] = "Knight"
 print(story_1)
+
+![](../../Documents/ShareX/Screenshots/2022-10/pycharm64_SiES7pAiIE.png)
