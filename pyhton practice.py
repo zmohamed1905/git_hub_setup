@@ -22,4 +22,4 @@ Answer:
 
 Q6:string - any data type - how to add an item to to a list - tuple - dict etc
 
-Answer: list.append("item")
+Answer: list.append("item") , dictionary.update , tuples are immutable
