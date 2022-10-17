@@ -14,3 +14,12 @@ Answer: True or False- and/or
 Q4:Data collections - dictionary - lists - tuple - indexing - print 3rd and 5th item from list - tuple - or dictionary - nested dict - list inside a dict - the list item from dict - which data type is mutable - immutable -
 
 Answer: list is mutable, tuple is immutable , lists and tuples use  list_name[0]  indexing.
+
+Q5: OOP, classes and Super
+
+Answer:
+
+
+Q6:string - any data type - how to add an item to to a list - tuple - dict etc
+
+Answer: list.append("item")
